@@ -1,0 +1,86 @@
+.pricing{
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card{
+    margin-top: 4rem;
+    border: 1px solid #eee;
+    color: #eee;
+    border-radius: .1rem;
+    background-color: rgba(0, 0, 0, 0.349);
+    box-shadow: 0 2px rgba(238, 238, 238, 0.212);
+}
+
+.card{
+    text-align: center;
+    padding: 1rem;
+    transition: .3s ease;
+}
+
+.card:hover{
+    text-align: center;
+    padding: 1rem;
+    transform: translateX(5px);
+    box-shadow: 10px 10px 30px rgba(238, 238, 238, 0.212);
+}
+
+.card h3{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.card .bar{
+    border-bottom: 1px solid #eee;
+    width: 20%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.img-card{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.products p{
+    color: #eee;
+    padding: .5rem 0;
+    font-size: 1rem;
+}
+
+.card .btn{
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 1020px){
+    .card-container{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    
+ @media screen and (max-width: 850px){
+    .card-container{
+        width: 55%;
+        grid-template-columns: 1fr;
+        }
+
+        .card .btn{
+           width: 70%;
+        }
+}

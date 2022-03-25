@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem 1rem 1rem;
+    margin: auto;
+    max-width: 600px
+}
+
+form label{
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+form input, textarea{
+    margin-bottom: 1rem;
+    padding: 10px 10px;
+    font-size: .9rem;
+    font-family: 'Barlow', sans-serif;
+    background: rgba(225, 225, 255, .1);
+    border-color: rgba(225, 225, 255, .1);
+    color: #f4f4f4;
+}   
